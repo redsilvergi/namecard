@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Premium 3D Glass Business Card</title>
+    <!-- <link rel="icon" href="./favicon4.svg" type="image/svg+xml" /> -->
+    <title>뇸 - 홍은기</title>
     <style>
       * {
         margin: 0;
@@ -13,7 +14,7 @@
 
       body {
         font-family: 'Arial', sans-serif;
-        background: #f5f2ed;
+        background: #faf9f5;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -32,11 +33,11 @@
         height: 200%;
         background: radial-gradient(
             circle at 20% 50%,
-            #e8dcc0 0%,
+            #f0ede6 0%,
             transparent 50%
           ),
-          radial-gradient(circle at 80% 80%, #d4c4a0 0%, transparent 50%),
-          radial-gradient(circle at 40% 20%, #c9b896 0%, transparent 50%);
+          radial-gradient(circle at 80% 80%, #e8e3da 0%, transparent 50%),
+          radial-gradient(circle at 40% 20%, #ded7cc 0%, transparent 50%);
         animation: gradientShift 20s ease-in-out infinite;
       }
 
@@ -80,22 +81,22 @@
         border-radius: 25px;
         background: linear-gradient(
             135deg,
-            rgba(255, 255, 255, 0.9) 0%,
-            rgba(245, 242, 237, 0.8) 40%,
-            rgba(255, 255, 255, 0.9) 100%
+            rgba(255, 255, 255, 0.95) 0%,
+            rgba(250, 249, 245, 0.85) 40%,
+            rgba(255, 255, 255, 0.95) 100%
           ),
           linear-gradient(
             to bottom,
-            rgba(255, 255, 255, 0.6) 0%,
+            rgba(255, 255, 255, 0.7) 0%,
             transparent 100%
           );
         backdrop-filter: blur(20px) saturate(150%);
         -webkit-backdrop-filter: blur(20px) saturate(150%);
-        box-shadow: 0 25px 50px rgba(139, 125, 107, 0.3),
-          0 0 0 1px rgba(255, 255, 255, 0.8) inset,
-          0 0 30px rgba(255, 255, 255, 0.4) inset,
-          0 0 100px rgba(201, 184, 150, 0.2);
-        border: 1px solid rgba(212, 196, 160, 0.4);
+        box-shadow: 0 25px 50px rgba(160, 155, 148, 0.25),
+          0 0 0 1px rgba(255, 255, 255, 0.9) inset,
+          0 0 30px rgba(255, 255, 255, 0.5) inset,
+          0 0 100px rgba(222, 215, 204, 0.15);
+        border: 1px solid rgba(232, 227, 218, 0.3);
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -113,12 +114,12 @@
         height: 300%;
         background: radial-gradient(
             circle at 30% 30%,
-            rgba(255, 255, 255, 0.5) 0%,
+            rgba(255, 255, 255, 0.6) 0%,
             transparent 30%
           ),
           radial-gradient(
             circle at 70% 70%,
-            rgba(245, 242, 237, 0.3) 0%,
+            rgba(250, 249, 245, 0.4) 0%,
             transparent 40%
           );
         transform: rotate(30deg);
@@ -193,10 +194,11 @@
         position: absolute;
         width: 20px;
         height: 20px;
-        background: linear-gradient(135deg, #c9b896, #a89473);
+        background: linear-gradient(135deg, #b5aea1, #968f82);
         border-radius: 50%;
-        box-shadow: 0 0 20px rgba(201, 184, 150, 0.4),
-          0 0 40px rgba(201, 184, 150, 0.2), 0 4px 8px rgba(139, 125, 107, 0.3);
+        box-shadow: 0 0 20px rgba(181, 174, 161, 0.35),
+          0 0 40px rgba(181, 174, 161, 0.15),
+          0 4px 8px rgba(160, 155, 148, 0.25);
         animation: pulse 2s ease-in-out infinite;
       }
 
@@ -265,7 +267,7 @@
         background: linear-gradient(
           90deg,
           transparent,
-          rgba(201, 184, 150, 0.6),
+          rgba(181, 174, 161, 0.5),
           transparent
         );
         transform-origin: left center;
@@ -327,7 +329,7 @@
         transform: translate(-50%, -50%);
         width: 40px;
         height: 40px;
-        background: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.75);
         backdrop-filter: blur(10px);
         clip-path: polygon(
           30% 0%,
@@ -337,14 +339,14 @@
           30% 100%,
           0% 50%
         );
-        box-shadow: 0 0 30px rgba(201, 184, 150, 0.3),
-          inset 0 0 20px rgba(255, 255, 255, 0.4),
-          0 4px 8px rgba(139, 125, 107, 0.2);
+        box-shadow: 0 0 30px rgba(181, 174, 161, 0.25),
+          inset 0 0 20px rgba(255, 255, 255, 0.5),
+          0 4px 8px rgba(160, 155, 148, 0.15);
       }
 
       .content {
         flex: 1;
-        color: #4a3d2a;
+        color: #3d3832;
         position: relative;
         z-index: 2;
       }
@@ -354,8 +356,8 @@
         font-weight: 300;
         letter-spacing: 3px;
         margin-bottom: 5px;
-        color: #4a3d2a;
-        text-shadow: 0 2px 10px rgba(139, 125, 107, 0.2);
+        color: #3d3832;
+        text-shadow: 0 2px 10px rgba(160, 155, 148, 0.2);
         opacity: 0;
         animation: fadeInUp 0.6s ease-out forwards;
         animation-delay: 0.2s;
@@ -363,14 +365,14 @@
 
       .surname {
         font-size: 38px;
-        background: linear-gradient(135deg, #8b7d6b, #6b5d4a, #8b7d6b);
+        background: linear-gradient(135deg, #7a736a, #5a5449, #7a736a);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         font-weight: 700;
         letter-spacing: 3px;
         margin-bottom: 15px;
-        filter: drop-shadow(0 2px 10px rgba(139, 125, 107, 0.3));
+        filter: drop-shadow(0 2px 10px rgba(160, 155, 148, 0.25));
         opacity: 0;
         animation: fadeInUp 0.6s ease-out forwards;
         animation-delay: 0.3s;
@@ -378,7 +380,7 @@
 
       .title {
         font-size: 14px;
-        color: rgba(74, 61, 42, 0.8);
+        color: rgba(61, 56, 50, 0.8);
         margin-bottom: 25px;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -391,7 +393,7 @@
       .details {
         font-size: 12px;
         line-height: 1.8;
-        color: rgba(74, 61, 42, 0.7);
+        color: rgba(61, 56, 50, 0.7);
         opacity: 0;
         animation: fadeInUp 0.6s ease-out forwards;
         animation-delay: 0.5s;
@@ -421,7 +423,7 @@
         position: absolute;
         width: 4px;
         height: 4px;
-        background: rgba(201, 184, 150, 0.5);
+        background: rgba(181, 174, 161, 0.4);
         border-radius: 50%;
         pointer-events: none;
         animation: floatParticle 10s linear infinite;
@@ -451,7 +453,7 @@
         height: 200px;
         background: radial-gradient(
           circle,
-          rgba(201, 184, 150, 0.2) 0%,
+          rgba(181, 174, 161, 0.15) 0%,
           transparent 70%
         );
         border-radius: 50%;
@@ -487,7 +489,7 @@
         left: 50%;
         transform: translateX(-50%);
         font-size: 14px;
-        color: rgba(74, 61, 42, 0.5);
+        color: rgba(61, 56, 50, 0.5);
         letter-spacing: 1px;
         animation: hintPulse 2s ease-in-out infinite;
       }
@@ -538,7 +540,7 @@
 
         <div class="content">
           <!-- <div class="name">YOANILAVER</div> -->
-          <div class="surname">NOMM</div>
+          <div class="surname">뇸</div>
           <!-- <div class="title">FIND BETTER FOOD</div> -->
           <div class="details">
             홍은기<br />
