@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <!-- Background rectangle with rounded corners, similar to the card shape -->
+    <rect width="32" height="32" rx="5" fill="white"/>
+
+    <!-- The central circle from your design -->
+    <circle cx="16" cy="16" r="3.5" stroke="black" stroke-width="1.5"/>
+
+    <!-- The surrounding smaller circles -->
+    <circle cx="16" cy="9" r="2" stroke="black" stroke-width="1.5"/>
+    <circle cx="21.2" cy="12.5" r="2" stroke="black" stroke-width="1.5"/>
+    <circle cx="21.2" cy="19.5" r="2" stroke="black" stroke-width="1.5"/>
+    <circle cx="16" cy="23" r="2" stroke="black" stroke-width="1.5"/>
+    <circle cx="10.8" cy="19.5" r="2" stroke="black" stroke-width="1.5"/>
+    <circle cx="10.8" cy="12.5" r="2" stroke="black" stroke-width="1.5"/>
+</svg>
